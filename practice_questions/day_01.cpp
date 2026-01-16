@@ -51,20 +51,34 @@ int main()
 
     // Binary to decimal
 
-    int binaryNumber = 100011001;
+    // int octalNumber = 100011001;
+    // int result = 0, mul = 1;
+
+    // while (octalNumber != 0)
+    // {
+    //     int digit = octalNumber % 10;
+    //     result = (digit * mul) + result;
+    //     octalNumber /= 10;
+    //     mul *= 2;
+    // }
+
+    // cout << result;
+
+
+    // Octal to decimal
+
+    int octalNumber = 13242023;
     int result = 0, mul = 1;
 
-    while (binaryNumber != 0)
+    while (octalNumber != 0)
     {
-        int digit = binaryNumber % 10;
+        int digit = octalNumber % 10;
         result = (digit * mul) + result;
-        binaryNumber /= 10;
-        mul *= 2;
+        octalNumber /= 10;
+        mul *= 8;
     }
 
     cout << result;
 
-
-    
     return 0;
 }
