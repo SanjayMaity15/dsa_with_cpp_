@@ -20,24 +20,24 @@ int main()
     // cin >> a >> b;
     // cout << "Sum of a and b is " << a + b;
 
-    // int age;
-    // float marks;
-    // char grade;
+    int age;
+    float marks;
+    char grade;
 
-    // cin >> age >> marks >> grade;
-    // cout << age;
-    // cout << marks;
-    // cout << grade;
+    cin >> age >> marks >> grade;
+    cout << age;
+    cout << marks;
+    cout << grade;
 
-    // int n;
-    // cin >> n;
-    // cout << "Square of the number is " << n * n;
+    int n;
+    cin >> n;
+    cout << "Square of the number is " << n * n;
 
-    // string name;
-    // int age;
+    string name;
+    int age;
 
-    // cin >> name >> age;
-    // cout << "My name is " << name << " and my age is " << age;
+    cin >> name >> age;
+    cout << "My name is " << name << " and my age is " << age;
 
     return 0;
 }
