@@ -67,15 +67,49 @@ int main()
 
     // Octal to decimal
 
-    int octalNumber = 13242023;
+    // int octalNumber = 13242023;
+    // int result = 0, mul = 1;
+
+    // while (octalNumber != 0)
+    // {
+    //     int digit = octalNumber % 10;
+    //     result = (digit * mul) + result;
+    //     octalNumber /= 10;
+    //     mul *= 8;
+    // }
+
+    // cout << result;
+
+
+    // decimal to binary 
+
+    // int decimalNumber = 2134437828;
+    // string result = "";
+    // int mul = 1;
+
+    // while (decimalNumber != 0)
+    // {
+    //     int digit = decimalNumber % 2;
+    //     // result = (digit * mul) + result;
+    //     result = to_string(digit) + result;
+    //     decimalNumber /= 2;
+    //     mul *= 10;
+    // }
+
+    // cout << result;
+
+
+    // decimal to octal
+
+    int decimalNumber = 2134;
     int result = 0, mul = 1;
 
-    while (octalNumber != 0)
+    while (decimalNumber != 0)
     {
-        int digit = octalNumber % 10;
+        int digit = decimalNumber % 8;
         result = (digit * mul) + result;
-        octalNumber /= 10;
-        mul *= 8;
+        decimalNumber /= 8;
+        mul *= 10;
     }
 
     cout << result;
